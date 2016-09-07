@@ -1,0 +1,117 @@
+[SickBeard]
+host = localhost
+port = 8081
+username =
+password =
+web_root =
+ssl = 0
+api_key =
+
+[Sonarr]
+host = localhost
+port = 8989
+web_root =
+ssl = 0
+apikey =
+
+[MP4]
+ffmpeg = /usr/bin/ffmpeg
+ffprobe = /usr/bin/ffprobe
+threads = auto
+output_directory =
+copy_to =
+move_to =
+output_extension = mp4
+output_format = mp4
+delete_original = True
+relocate_moov = True
+video-codec = h264,x264
+video-bitrate =
+video-max-width =
+h264-max-level =
+use-qsv-decoder-with-encoder = True
+ios-audio = True
+ios-first-track-only = False
+ios-audio-filter =
+max-audio-channels =
+audio-codec = ac3
+audio-language = eng,spa
+audio-default-language = eng
+audio-channel-bitrate =
+audio-filter =
+subtitle-codec = mov_text
+subtitle-language = eng
+subtitle-default-language = eng
+subtitle-encoding =
+fullpathguess = True
+convert-mp4 = False
+tagfile = True
+tag-language = en
+download-artwork = Poster
+download-subs = True
+embed-subs = True
+sub-providers = addic7ed,podnapisi,thesubdb,opensubtitles,tvsubtitles
+permissions = 0777
+post-process = False
+pix-fmt =
+
+[CouchPotato]
+host = localhost
+port = 5050
+username =
+password =
+web_root =
+ssl = 0
+apikey =
+delay = 65
+method = renamer
+delete_failed = 0
+
+[uTorrent]
+convert =
+couchpotato-label = couchpotato
+sickbeard-label = sickbeard
+sonarr-label = sonarr
+bypass-label = bypass
+sickrage-label = sickrage
+webui = False
+action_before = stop
+action_after = removedata
+host = http://localhost:8080/
+username =
+password =
+
+[Deluge]
+host = localhost
+username =
+convert = True
+password =
+sonarr-label = sonarr
+bypass-label = bypass
+sickbeard-label = sickbeard
+port = 58846
+sickrage-label = sickrage
+couchpotato-label = couchpotato
+
+[SABNZBD]
+convert = True
+sickrage-category = sickrage
+sonarr-category = sonarr
+bypass-category = bypass
+couchpotato-category = couchpotato
+sickbeard-category = sickbeard
+
+[Sickrage]
+host = localhost
+port = 8081
+username =
+password =
+web_root =
+ssl = 0
+api_key =
+
+[Plex]
+host = localhost
+port = 32400
+refresh = True
+token =
