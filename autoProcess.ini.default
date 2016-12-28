@@ -1,11 +1,11 @@
 [SickBeard]
-host = localhost
+host = sickbeard
 port = 8081
-username =
-password =
+username = heatmeiser
+password = bananaphone
 web_root =
 ssl = 0
-api_key =
+api_key = 330f58d2780065da82cc2b12b856bd91
 
 [Sonarr]
 host = localhost
@@ -40,7 +40,7 @@ audio-default-language = eng
 audio-channel-bitrate =
 audio-filter =
 subtitle-codec = mov_text
-subtitle-language = eng
+subtitle-language = eng,spa
 subtitle-default-language = eng
 subtitle-encoding =
 fullpathguess = True
@@ -56,13 +56,13 @@ post-process = False
 pix-fmt =
 
 [CouchPotato]
-host = localhost
+host = couchpotato
 port = 5050
-username =
-password =
+username = heatmeiser
+password = bananaphone
 web_root =
 ssl = 0
-apikey =
+apikey = 8f4d54f825e748e487e1057e1c0c8292
 delay = 65
 method = renamer
 delete_failed = 0
@@ -111,7 +111,7 @@ ssl = 0
 api_key =
 
 [Plex]
-host = localhost
+host = plex
 port = 32400
-refresh = True
-token =
+refresh = False
+token = hFyzW5He4tGxAK1tkpFq
